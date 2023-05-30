@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(235, 18%, 26%);
+    font-size: 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: [Roboto](https://fonts.google.com/specimen/Roboto);
+}
+
+
+.box{
+    height: 650px;
+    width: 1100px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+    
+   
+}
+
+.box h1{
+    margin-left: 50px;
+    margin-top: 180px;
+    color: hsl(234, 29%, 20%);
+    font-weight: bolder;
+
+}
+
+.box h4{
+    margin-left: 50px;
+    color: hsl(234, 29%, 20%);
+    font-weight: bolder;
+    margin-top: 20px;
+    
+}
+
+.liste{
+    list-style: none;
+    margin-left:50px;
+    color: hsl(234, 29%, 20%);
+    font-weight: bold;
+    margin-top: 20px;
+   
+
+}
+
+.liste img{
+    display: grid;
+    float: left;
+    
+}
+
+.image{
+    text-align: right;
+    margin-top: -450px;
+    margin-right: 20px;
+
+
+}
+
+.teto{
+    margin-left: 50px;
+    display: grid;
+    
+    
+
+}
+
+.teto button{
+ background-color:  hsl(234, 29%, 20%);
+ width: 350px;
+ border-radius: 10px;
+ height: 35px;
+ margin-top: 15px;
+ color: white;
+ font-weight: bolder;
+
+}
+
+.teto input{
+    width: 345px;
+    height: 30px;
+    border-radius: 10px;
+}
